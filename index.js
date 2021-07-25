@@ -1,3 +1,3 @@
-import os from 'os';
+const ourCode = require('./externalModule').default;
 
-console.log(os.cpus());
+console.log(ourCode());
